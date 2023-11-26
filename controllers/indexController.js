@@ -36,6 +36,27 @@ const menu = [
         precio: 100.5,
         imagen: "mitad-parrilla-mitad-filetes-crudos-parrilla.jpg"
     },
+    {
+        id: crypto.randomUUID(),
+        nombre: "Falda de cordero",
+        descripcion: "falda de cordero lechal asado, acompañado por un jugo de su propio asado",
+        precio: 150.9,
+        imagen: "falda-de-cordero-y-espiral-con-ensalada-de-pamplinas.webp"
+    },
+    {
+        id: crypto.randomUUID(),
+        nombre: "Pez rey asado",
+        descripcion: "Pez rey asado con pil-pil de almejas, nécora y Champagne y una crema fina de avellana y caviar, de Lasarte",
+        precio: 120.5,
+        imagen: "pez-rey-asado-con-pil-pil-de-almejas-necora-y-champagne-y-una-crema-fina-de-avellana-y-caviar.webp"
+    },
+    {
+        id: crypto.randomUUID(),
+        nombre: "Pescadilla de la bahía en amarillo",
+        descripcion: "Guiso tradicional típico de las costas de Cádiz",
+        precio: 100.5,
+        imagen: "pescadilla-de-la-bahia-en-amarillo.webp"
+    },
 ]
 
 module.exports = {

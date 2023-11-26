@@ -49,15 +49,12 @@ h6 {
   font-weight: 400;
   margin: 10px 0;
 }
+
 .ps-serif {
   font-family: serif;
 }
 .ps-wide {
   letter-spacing: 4px;
-}
-.ps-content {
-  max-width: 1600px !important;
-  min-width: 500px !important;
 }
 
 .ps-img-menu {
@@ -333,6 +330,21 @@ a {
 .ps-col.s12 {
   width: 99.99999%;
 }
+
+.ps_menu {
+  padding: 30px;
+}
+
+.ps-imagen {
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.ps-menu-item {
+  gap: 20px;
+}
+
 @media (min-width: 601px) {
   .ps-col.m1 {
     width: 8.33333%;
@@ -375,6 +387,29 @@ a {
   .ps-col.m12 {
     width: 99.99999%;
   }
+
+  .ps_menu {
+    width: 100%;
+  }
+  
+  .ps-menu-item {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between;
+  }
+  
+  .ps-imagen {
+    width: 15%;
+    height: 100px;
+  }
+  
+  .ps-menu-texto {
+    width: 25%;
+  }
+
+  .ps-img-menu img{
+    width: 100%;
+  }
 }
 @media (min-width: 993px) {
   .ps-col.l1 {
@@ -392,9 +427,9 @@ a {
   .ps-col.l5 {
     width: 41.66666%;
   }
-  .ps-col.l6 {
+  /* .ps-col.l6 {
     width: 49.99999%;
-  }
+  } */
   .ps-col.l7 {
     width: 58.33333%;
   }
@@ -898,7 +933,6 @@ a {
 }
 .ps-padding-64 {
   padding-top: 64px !important;
-  padding-bottom: 64px !important;
 }
 .ps-left {
   float: left !important;
